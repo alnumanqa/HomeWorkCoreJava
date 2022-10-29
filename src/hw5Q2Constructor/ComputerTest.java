@@ -9,7 +9,7 @@ public class ComputerTest {
 		Computer computer2 = new Computer("Alienware", "Alienware Aurora R12", "Microsoft Windows 11 Home", 2100, 'A',
 				false);
 
-		// Parameterized constructor is declared here
+		// Parameterized constructor is initialized here
 		Computer computer3 = new Computer(" Standalone Workstation");
 
 	}
