@@ -13,12 +13,12 @@ public class AboutMeTest {
 		aboutMe1.myCitizenship = true;
 		aboutMe1.myHeight = 5.9f;
 		aboutMe1.mygrade = 3.67;
-		
+
 		aboutMe1.aboutMe();// Method is initialized here
 
 		System.out.println("\n--------------------------------------------------------------------\n");
-		
-		AboutMe aboutMe2 = new AboutMe(); //Constructor is initialized here
+
+		AboutMe aboutMe2 = new AboutMe(); // Constructor is initialized here
 		// Variable is initialized here
 		aboutMe2.myName = "Alex";
 		aboutMe2.myHouseNumber = 51;
@@ -29,7 +29,7 @@ public class AboutMeTest {
 		aboutMe2.myCitizenship = false;
 		aboutMe2.myHeight = 4.9f;
 		aboutMe2.mygrade = 3.27;
-		
+
 		aboutMe2.aboutMe(); // Method is initialized here
 
 	}
