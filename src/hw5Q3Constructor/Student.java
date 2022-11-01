@@ -12,6 +12,7 @@ public class Student {
 
 	}
 
+	// parameterized constructor is declared here
 	public Student(String Name, int Id, char sex, boolean Programmer, float grade) {
 		this.stName = Name;
 		this.stID = Id;

@@ -8,10 +8,23 @@ public class Computer {
 	public int price;
 	public char grade;
 	public boolean madeInUSA;
-	public String configuration;
+	
 
 	public Computer() { // Default constructor is declared here
 		System.out.println("This is from default Constructor of Computer class.\n");
+	}
+	// Parameterized constructor is declared here
+	public Computer(String brand, String model, String operatingSystem, char grade, int price, boolean madeInUSA) {
+		super();
+		this.brand = brand;
+		this.model = model;
+		this.operatingSystem = operatingSystem;
+		this.grade = grade;
+		this.price = price;
+		this.madeInUSA = madeInUSA;
+		System.out.println("Computer brand: " + brand + ", Computer model: " + model + ", Computer operating System: "
+				+ operatingSystem + ", Computer price: " + price + ", Grade: " + grade + ", Computer is made in USA: "
+				+ madeInUSA);
 	}
 
 	// Parameterized constructor is declared here
@@ -22,16 +35,13 @@ public class Computer {
 		this.price = price;
 		this.grade = grade;
 		this.madeInUSA = madeInUSA;
-		System.out.println("Computer brand: " + brand + ", Computer model: " + model + ", Computer operating System: "
+		System.out.println("\nComputer brand: " + brand + ", Computer model: " + model + ", Computer operating System: "
 				+ operatingSystem + ", Computer price: " + price + ", Grade: " + grade + ", Computer is made in USA: "
 				+ madeInUSA);
 	}
 
-	// Parameterized constructor is declared here
-	public Computer(String configuration) {
-		this.configuration = configuration;
-		System.out.println("Computer configuration" + configuration);
+	
 
-	}
+	
 
 }
