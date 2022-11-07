@@ -20,6 +20,8 @@ public class Temperature {
 		} else {
 			System.out.println("Please put ice on my head");
 		}
+		scanner.close();
+		
 
 	}
 
