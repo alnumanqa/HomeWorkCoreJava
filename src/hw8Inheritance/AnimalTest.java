@@ -10,57 +10,62 @@ public class AnimalTest {
 
 		Mammal mammal = new Mammal();
 		mammal.mammalInfo();
-		mammal.animalInfo(); // This is Hierarchical inheritance
+		mammal.animalInfo(); 
 
 		System.out.println("\n---------------------------------------------------------------\n");
 
 		Reptile reptile = new Reptile();
 		reptile.reptileInfo();
-		reptile.animalInfo(); // This is Hierarchical inheritance
+		reptile.animalInfo(); 
 
 		System.out.println("\n---------------------------------------------------------------\n");
 
 		Birds birds = new Birds();
 		birds.birdsInfo();
-		birds.animalInfo(); // This is Hierarchical inheritance
+		birds.animalInfo(); 
 
 		System.out.println("\n---------------------------------------------------------------\n");
 
 		Dog dog = new Dog();
 		dog.dogInfo();
-		dog.mammalInfo(); // This is single inheritance
-		dog.animalInfo(); // This is Multi-Level inheritance
+		dog.mammalInfo(); 
+		dog.animalInfo(); 
 
 		System.out.println("\n---------------------------------------------------------------\n");
 
 		Snake snake = new Snake();
 		snake.snakeInfo();
-		snake.reptileInfo(); // This is single inheritance
-		snake.animalInfo(); // This is Multi-Level inheritance
+		snake.reptileInfo(); 
+		snake.animalInfo(); 
 
 		System.out.println("\n---------------------------------------------------------------\n");
 
 		Robin robin = new Robin();
 		robin.robinInfo();
-		robin.birdsInfo(); // This is single inheritance
-		robin.animalInfo(); // This is Multi-Level inheritance
+		robin.birdsInfo(); 
+		robin.animalInfo(); 
 
 		System.out.println("\n---------------------------------------------------------------\n");
 
 		BullDog bullDog = new BullDog();
 		bullDog.bullDogInfo();
-		bullDog.dogInfo(); // This is single inheritance
-		bullDog.mammalInfo(); // This is Multi-Level inheritance
-		bullDog.animalInfo(); // This is Multi-Level inheritance
+		bullDog.dogInfo(); 
+		bullDog.mammalInfo(); 
+		bullDog.animalInfo(); 
+		// Bulldog extends dog which is single inheritance
+		// Bulldog extends dog, then dog extends mammal which are multi-level inheritance
+		// Mammal extends Animal, Reptile extends Animal, and Birds extends Animal which are hierarchical inheritance
 
 		System.out.println("\n---------------------------------------------------------------\n");
 
 		Cobra cobra = new Cobra();
 		cobra.cobraInfo();
-		cobra.snakeInfo(); // This is single inheritance
-		cobra.reptileInfo(); // This is Multi-Level inheritance
-		cobra.animalInfo(); // This is Multi-Level inheritance
+		cobra.snakeInfo(); 
+		cobra.reptileInfo(); 
+		cobra.animalInfo(); 
 
 	}
+	
+	
 
 }
