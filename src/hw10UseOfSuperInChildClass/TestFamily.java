@@ -10,10 +10,10 @@ public class TestFamily {
 		Daughter daughter2 = new Daughter("February", 29);
 
 		System.out.println("\nVoid type method is initialized here\n");
-		daughter2.father();
+		daughter2.daughter();
 
 		System.out.println("\nparameterized method is initialized here:\n");
-		daughter2.fatherInfo("Md", 80, 'M', false);
+		daughter2.daughterInfo("Janurary", 30);
 
 	}
 

@@ -13,7 +13,7 @@ public class Daughter extends Father {
 	}
 
 	public Daughter(String birthMonth, int age) {
-		super("July", 65, 'F', true);
+		super("Md", 65, 'M', true);
 		this.birthMonth = birthMonth;
 		this.age = age;
 		System.out.println("Birth month: " + birthMonth + ", Age: " + age);
