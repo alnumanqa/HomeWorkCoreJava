@@ -9,6 +9,7 @@ public class Daughter extends Father {
 		super.familyName = "Islam";
 		System.out.println("Family name: " + familyName);
 		System.out.println("This default constructor from Daughter class");
+		
 
 	}
 
