@@ -39,12 +39,12 @@ public class TestInstitute {
 		university.surgeryRoom();
 		university.cafeteria();
 		university.morgue();
-		
+
 		System.out.println("\n-----------------------------MedicalSchool-------------------------\n");
 		MedicalSchool medicalSchool = new ColumbiaUniversity();
 		medicalSchool.anatomyLab();
 		medicalSchool.biochemistryLab();
-		MedicalSchool.nazif(); // Here static method of  MedicalSchool called by the abstract class itself.
+		MedicalSchool.nazif(); // Here static method of MedicalSchool called by the abstract class itself.
 		medicalSchool.hygiene();
 		medicalSchool.caring();
 		medicalSchool.lawInfo();
@@ -53,8 +53,6 @@ public class TestInstitute {
 		medicalSchool.maths();
 		medicalSchool.mechanicalLab();
 		medicalSchool.computerLab();
-		
-	
 
 	}
 }
