@@ -1,7 +1,8 @@
 package hw12Polymorphism;
 
 public class Niece extends Sister {
-
+	
+	@Override
 	public void sister() {
 		System.out.println("This is void type method from Sister class");
 	}
