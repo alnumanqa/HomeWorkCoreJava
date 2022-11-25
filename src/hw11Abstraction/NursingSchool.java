@@ -1,6 +1,6 @@
 package hw11Abstraction;
 
-public abstract class NursingSchool extends RockefellerUniversity{
+public abstract class NursingSchool extends RockefellerUniversity implements LawSchool{
 
 	public NursingSchool() { // Constructor can be created in the abstract Class
 

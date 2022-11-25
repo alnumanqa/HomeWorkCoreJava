@@ -12,7 +12,7 @@ public class TestInstitute {
 		columbiaUniversity.caring();
 		columbiaUniversity.commonRoom();
 		columbiaUniversity.laboratory();
-		columbiaUniversity.langageClub();
+		columbiaUniversity.languageClub();
 		columbiaUniversity.emergencyRoom();
 		columbiaUniversity.surgeryRoom();
 		columbiaUniversity.cafeteria();
@@ -30,10 +30,10 @@ public class TestInstitute {
 		university.playGround();
 		university.teacher();
 		university.gymnasium();
-		University.library(); // Here static method of University Interface called by the class itself.
+		University.library(); // Here static method of University Interface called by the Interface itself.
 		university.commonRoom();
 		university.laboratory();
-		university.langageClub();
+		university.languageClub();
 		university.dorm();
 		university.emergencyRoom();
 		university.surgeryRoom();
@@ -44,10 +44,16 @@ public class TestInstitute {
 		MedicalSchool medicalSchool = new ColumbiaUniversity();
 		medicalSchool.anatomyLab();
 		medicalSchool.biochemistryLab();
-		MedicalSchool.nazif(); // Here static method of  MedicalSchool called by the class itself.
+		MedicalSchool.nazif(); // Here static method of  MedicalSchool called by the abstract class itself.
 		medicalSchool.hygiene();
 		medicalSchool.caring();
 		medicalSchool.lawInfo();
+		medicalSchool.aeronaticallnInfo();
+		medicalSchool.anthropology();
+		medicalSchool.maths();
+		medicalSchool.mechanicalLab();
+		medicalSchool.computerLab();
+		
 	
 
 	}

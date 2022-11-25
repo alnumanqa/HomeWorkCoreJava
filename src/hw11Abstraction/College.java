@@ -5,7 +5,7 @@ public interface College {
 
 	public void laboratory();
 
-	public void langageClub();
+	public void languageClub();
 
 	public default int dorm() {
 		return 0;

@@ -67,12 +67,6 @@ public class ColumbiaUniversity extends MedicalSchool implements University, Voc
 	}
 
 	@Override
-	public void langageClub() {
-		// TODO Auto-generated method stub
-
-	}
-
-	@Override
 	public void emergencyRoom() {
 		// TODO Auto-generated method stub
 
@@ -112,6 +106,12 @@ public class ColumbiaUniversity extends MedicalSchool implements University, Voc
 	public void teacher() {
 		// TODO Auto-generated method stub
 
+	}
+
+	@Override
+	public void languageClub() {
+		// TODO Auto-generated method stub
+		
 	}
 
 }
