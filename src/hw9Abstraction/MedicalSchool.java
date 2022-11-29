@@ -1,6 +1,8 @@
 package hw9Abstraction;
 
-public abstract class MedicalSchool {
+import hw11Abstraction.NursingSchool;
+
+public abstract class MedicalSchool extends NursingSchool{
 
 	public MedicalSchool() { // Constructor can be created in the abstract Class
 
@@ -16,7 +18,7 @@ public abstract class MedicalSchool {
 	// Abstract class can inherit other abstract class by extends key word.
 	// Abstract class can inherit regular class by extends key word.
 	// Abstract class can't inherit Interface by extends key word.
-	// Abstract class can inherit one abstract class or one regular class. One inheritance is possible.
-	
+	// Abstract class can inherit one abstract class or one regular class. One
+	// inheritance is possible.
 
 }

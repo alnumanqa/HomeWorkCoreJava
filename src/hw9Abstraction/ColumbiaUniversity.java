@@ -1,6 +1,6 @@
 package hw9Abstraction;
 
-public class ColumbiaUniversity extends MedicalSchool{
+public class ColumbiaUniversity extends MedicalSchool {
 
 	public ColumbiaUniversity() {
 
@@ -19,10 +19,23 @@ public class ColumbiaUniversity extends MedicalSchool{
 	// Regular class can inherit other Regular class by extends key word.
 	// Regular class can inherit abstract class by extends key word.
 	// Regular class can't inherit Interface by extends key word.
-	// Regular class can inherit one abstract class or one regular class. One inheritance is possible.
+	// Regular class can inherit one abstract class or one regular class. One
+	// inheritance is possible.
 
 	@Override
 	public void anatomyLab() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void lawInfo() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void caring() {
 		// TODO Auto-generated method stub
 		
 	}
